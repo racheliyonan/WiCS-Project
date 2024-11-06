@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "WiCS Project.sln"
+    "dotnet.defaultSolution": "WiCS-Project.sln"
 }
