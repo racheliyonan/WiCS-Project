@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6521477582054944699}
   - component: {fileID: 1048772799433141714}
   - component: {fileID: 8032106935881696338}
+  - component: {fileID: -8068476183866470067}
   m_Layer: 0
   m_Name: PIxelCat
   m_TagString: Untagged
@@ -157,3 +158,16 @@ PolygonCollider2D:
       - {x: -1.4, y: -1.38}
       - {x: -0.39999998, y: -1.38}
   m_UseDelaunayMesh: 0
+--- !u!114 &-8068476183866470067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8736655939773736801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4648972d107419b8c61ba98c28ea36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amt_movement: 2
