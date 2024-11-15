@@ -11,11 +11,18 @@ public class NewBehaviourScript : MonoBehaviour
         
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Obstacle")
+        {
+            // Implement collision response here, e.g., 
+            Debug.Log("Player collided with obstacle");
+        }
+    }
     // Update is called once per frame
     void Update()
     {
-
-         if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
              {
                 Vector3 position = this.transform.position;
                 position.x-=amt_movement;
