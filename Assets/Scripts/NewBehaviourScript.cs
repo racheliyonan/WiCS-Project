@@ -8,7 +8,8 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] private int amt_movement = 2;
     void Start()
     {
-        
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        rb.freezeRotation = true;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
