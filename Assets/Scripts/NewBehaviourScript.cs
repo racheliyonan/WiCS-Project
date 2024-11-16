@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private int amt_movement = 2;
+    [SerializeField] private float amt_movement = 0.05f;
     void Start()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
