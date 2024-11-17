@@ -14,6 +14,8 @@ public class NewBehaviourScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        // collisions with boundary?
+        
         if (collision.gameObject.tag == "Obstacle")
         {
             // Implement collision response here, e.g., 
